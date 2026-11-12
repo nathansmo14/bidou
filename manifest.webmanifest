@@ -1,0 +1,21 @@
+{
+  "name": "Bidou · Journal digestif",
+  "short_name": "Bidou",
+  "description": "Journal digestif personnel : repas, symptômes, selles, sommeil.",
+  "lang": "fr",
+  "start_url": "./#/",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#FFF7EE",
+  "theme_color": "#FF7A59",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Noter un repas", "short_name": "Repas", "url": "./#/?add=meal" },
+    { "name": "Toilettes", "short_name": "Toilettes", "url": "./#/?add=stool" }
+  ]
+}
